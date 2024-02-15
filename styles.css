@@ -53,9 +53,19 @@
 }
 
 .hero__section_logo{
-  width: 200px;
+  width: 250px;
   height: auto;
 }
+
+/*.hero__section_logo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  transform: none;
+}*/
 
 .hero__section_title{
   /*align-items: center;*/
@@ -265,7 +275,7 @@
   color: white;
   padding: 12px 16px;
   font-size: 0.9rem;
-  z-index: 9999;
+  z-index: 6;
 }
 
 .content h4{
